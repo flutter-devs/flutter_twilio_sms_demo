@@ -15,8 +15,8 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
   @override
   void initState() {
     twilioFlutter = TwilioFlutter(
-        accountSid: 'AC5cec67816163f35176eb994e4aa48c39',
-        authToken: 'a01c2e100cdf64a0f38ec19a66a7ec80',
+        accountSid: '***************************',
+        authToken: '******************************',
         twilioNumber: '+19285827312');
 
     super.initState();
@@ -24,7 +24,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
 
   void sendSms() async {
     twilioFlutter.sendSMS(
-        toNumber: ' +918377822231', messageBody: 'Hii everyone this is a demo of\nflutter twilio sms.');
+        toNumber: ' +91***********', messageBody: 'Hii everyone this is a demo of\nflutter twilio sms.');
   }
 
   void getSms() async {
